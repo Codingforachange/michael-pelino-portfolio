@@ -33,6 +33,11 @@ h2 {
     justify-content: space-between;
     transition: all 0.3s ease; /* Smooth hover effect */
     text-align: left;
+    height: 100%;
+}
+
+.project-content {
+    flex-grow: 1;
 }
 
 .project-card:hover {
