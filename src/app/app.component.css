@@ -1,0 +1,21 @@
+/*app.component.css */
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers the Menu */
+    gap: 2rem; /* Adds Space between links */
+    padding: 1.5rem;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+.navbar a {
+    color: #00d2ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a :hover {
+    color: #ffffff; /* Links turn white when hovered */
+    text-decoration: underline;
+}
