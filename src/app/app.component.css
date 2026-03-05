@@ -6,6 +6,11 @@
     padding: 1.5rem;
     background-color: #1a1a1a;
     border-bottom: 1px solid #333;
+    /* Sticky Positioning Logic */
+    position: sticky; /* Keeps element in flow but 'sticks' it */
+    top: 0; /* Pins it to the very top of the view port */
+    z-index: 1000; /* Ensures it stays on top of the project cards */
+    box-shadow: 0 2px 10px rbga(0,0,0,0.5); /* Adds depth when scrolling */
 }
 
 .navbar a {
